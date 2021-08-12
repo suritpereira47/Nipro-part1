@@ -1,0 +1,361 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+.logo h1 {
+    font-size: 20px;
+}
+.c_dd_menu[data-bs-popper] {
+    top: 47px;
+    left: -14px;
+}
+.c_dd_menu {
+    min-width: 300px;
+}
+.b_s_icon {
+    width: 60px;
+}
+/*header end*/
+/*slider start*/
+.btn-banner {
+    padding: 9px 12px;
+    margin-top: 20px !important;
+}
+.s-1 {
+    margin-top: 60px;
+    margin-bottom: 60px
+}
+.s-1 h1 {
+    font-size: 25px;
+}
+.s-1 p {
+    margin-top: 13px;
+    margin-right: 0px;
+}
+.btn-custom {
+    margin-top: 7px !important;
+    width: 159px;
+    height: 40px;
+}
+.btn-custom span i {
+    padding: 0 10px;
+}
+/*slider end*/	
+/*service start*/
+.Service {
+    margin-bottom: 50px;
+}
+.c_h1 {
+    font-size: 25px;
+}
+.s-p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.top_arrows {
+    height: 30px;
+}
+.s-service h2{
+    margin-top: 15px;
+}
+.s-service p {
+    margin-top: 10px;
+    margin-bottom: 20px !important;
+}
+/*service end*/
+    /*about start*/
+.a-img {
+    text-align: center;
+}
+.a-text h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.a-text p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.a-btn {
+    display: inherit;
+}
+.about {
+    margin-bottom: 50px;
+}
+    /*about end*/
+    /*our work start*/
+.our-work {
+    padding-bottom: 40px;
+}
+    /*our work end*/
+    /* choose us start */
+.choose-item {
+    margin-top: 15px;
+    padding: 20px 0;
+    text-align: center;
+}
+.c-p {
+    margin-top: 15px;
+}
+p {
+    margin-bottom: 5px;
+}
+.choose {
+    padding-bottom: 40px;
+}
+.c-icon i {
+    margin-top: -13px;
+    font-size: 50px;
+}
+    /* choose us  end */
+    /*profile start*/
+.p-item1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.p-item1:hover{
+    transform: scale(1.1);
+}
+.p-item2 {
+    margin-top: 0;
+}
+.p-item3{
+    margin-top: 0;
+}
+.p-text {
+    padding: 7px;
+}
+.p-text h2 {
+    font-size: 16px;
+}
+/*profile end*/ 
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+.c_dd_menu[data-bs-popper] {
+    left: 45px !important;
+}
+.menu {
+    text-align: center;
+}
+.menu ul li a{
+    margin-right: 0px !important;
+}
+.menu ul li:last-child a{
+    margin-right: 0px !important;
+}
+.nav_search{
+    text-align: center;
+}
+/*header end*/
+/*slider start*/
+.btn-banner {
+    margin-top: 20px !important;
+}
+.s-1 {
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+.s-1 h1 {
+    font-size: 40px;
+}
+.s-1 p {
+    margin-top: 25px;
+    margin-right: 0px;
+}
+.btn-custom {
+    text-align: center;
+    margin-top: 25px !important;
+    width: 159px;
+    height: 41px;
+    margin: 0 175px;
+}
+.btn-custom span i {
+    padding: 0 10px;
+}
+/*slider end*/	
+/*service start*/
+.Service {
+    margin-bottom: 80px;
+}
+.s-p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.top_arrows {
+    height: 30px;
+}
+.s-service h2{
+    margin-top: 30px;
+}
+.s-service p {
+    margin-top: 10px;
+    margin-bottom: 20px !important;
+}
+/*service end*/
+    /*about start*/
+.a-img {
+    text-align: center;
+}
+.a-text h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.a-text p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.a-btn {
+    display: inherit;
+}
+.about {
+    margin-bottom: 80px;
+}
+    /*about end*/
+    /* choose us start */
+.choose-item {
+    margin-top: 15px;
+    padding: 20px 0;
+    text-align: center;
+}
+.c-icon i {
+    margin-top: -13px;
+    font-size: 50px;
+}
+.c-p {
+    margin-top: 15px;
+}
+p {
+    margin-bottom: 5px;
+}
+    /* choose us  end */ 
+    /*profile start*/
+.p-item1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.p-item2{
+    margin-top: 0;
+}
+.p-text {
+    padding: 7px;
+}
+.p-text h2 {
+    font-size: 16px;
+}
+/*profile end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+.c_dd_menu[data-bs-popper] {
+    left: 130px;
+}
+/*header end*/	
+/*slider start*/
+.btn-banner {
+    margin-top:20px !important;
+}
+
+.s-1 {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.s-1 h1 {
+    font-size: 50px;
+}
+.s-1 p {
+    margin-top: 25px;
+    margin-right: 68px;
+}
+.btn-custom {
+    margin-top: 25px;
+}
+/*slider end*/
+/*service start*/
+.Service{
+    margin-bottom: 80px;
+}
+.s-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*service end*/
+    /*about start*/
+.a-img {
+    text-align: center;
+}
+.a-text h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.a-text p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.a-btn {
+    display: inherit;
+}
+.about {
+    margin-bottom: 100px;
+}
+    /*about end*/
+.c-icon i {
+    margin-top: -12px;
+    font-size: 50px;
+}
+/* choose us start */
+.c-h2 h2 {
+    font-size: 16px;
+}
+.choose {
+    padding-bottom: 60px;
+}
+.choose-item {
+    margin-top: 15px;
+}
+p {
+    margin-bottom: 0px;
+}
+/* choose us  end */ 
+/*profile start*/
+.p-item1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.p-item2{
+    margin-top: 0;
+}
+/*profile end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* choose us start */
+.c-h2 {
+    margin-left: 13px;
+}
+/* choose us  end */  
+}
+
+/*X-Large devices (large desktop, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /*about start*/
+.a-text h1 {
+    margin-bottom: 25px;
+}
+.a-text p {
+    margin-bottom: 25px;
+}
+    /*about end*/   
+}
+
+
+/*XX-Large devices (larger desktop, 1400px and up) */
+@media (min-width: 1400px) {
+	
+}
