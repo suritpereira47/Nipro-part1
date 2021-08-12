@@ -189,6 +189,12 @@ body{
 .btn-banner span {
   margin-left: 15px;
 }
+.s-1 .button:hover{
+    color: white !important;
+}
+.btn-banner  span  :hover{
+    color: white !important;
+}
 
 /*slider end*/
 /*Service start*/
@@ -385,4 +391,77 @@ body{
 .bottom-title span{
 
 }
-/* our work css end */
+/* choose us css start */
+.choose{
+    padding-bottom: 80px;
+
+}
+.choose-item{
+    margin-top: 30px;
+    border-bottom: 1px solid #8e8e8e;
+    padding: 25px 0;
+}
+.choose-item:hover{
+    border-color: #333333;
+}
+.c-icon{}
+.c-icon i {
+    margin-top: -15px;
+    font-size: 60px;
+    transition: .3s;
+}
+.c-icon i:hover{
+    transform: scale(1.1);
+}
+.choose-item:hover .c-icon i{
+    color:#333333 ;
+
+}
+.c-h2{}
+.c-h2 h2{
+     font-family:Lato-Bold ;
+     font-size: 18px;
+     text-transform: uppercase;
+}
+.choose-item:hover .c-h2 h2{
+    color: #333333;
+}
+.c-p{
+    margin-top: 20px;
+}
+
+/* choose us css end */
+/*profile start*/
+.profile{
+    background-image: url(../images/profile-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.p-item1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    transition: .3s;
+}
+.p-item1 img{
+    width: 100%;
+}
+.p-item1:hover{
+    transform: scale(1.1);
+}
+.p-text{
+   padding: 20px ;
+}
+.p-text h2{
+    font-family:Lato-Bold ;
+    font-size: 19px;
+    font-weight: 700;
+    color:#333333 ;
+    text-transform: uppercase;
+}
+.p-text h2:hover{
+    color: #8e8e8e;
+}
+.p-text p{}
+/*profile end*/
