@@ -82,6 +82,52 @@
     margin-bottom: 50px;
 }
     /*about end*/
+    /*our work start*/
+.our-work {
+    padding-bottom: 40px;
+}
+    /*our work end*/
+    /* choose us start */
+.choose-item {
+    margin-top: 15px;
+    padding: 20px 0;
+    text-align: center;
+}
+.c-p {
+    margin-top: 15px;
+}
+p {
+    margin-bottom: 5px;
+}
+.choose {
+    padding-bottom: 40px;
+}
+.c-icon i {
+    margin-top: -13px;
+    font-size: 50px;
+}
+    /* choose us  end */
+    /*profile start*/
+.p-item1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.p-item1:hover{
+    transform: scale(1.1);
+}
+.p-item2 {
+    margin-top: 0;
+}
+.p-item3{
+    margin-top: 0;
+}
+.p-text {
+    padding: 7px;
+}
+.p-text h2 {
+    font-size: 16px;
+}
+/*profile end*/ 
 
 }
 /*Small devices (landscape phones, 576px and up)*/
@@ -168,6 +214,38 @@
     margin-bottom: 80px;
 }
     /*about end*/
+    /* choose us start */
+.choose-item {
+    margin-top: 15px;
+    padding: 20px 0;
+    text-align: center;
+}
+.c-icon i {
+    margin-top: -13px;
+    font-size: 50px;
+}
+.c-p {
+    margin-top: 15px;
+}
+p {
+    margin-bottom: 5px;
+}
+    /* choose us  end */ 
+    /*profile start*/
+.p-item1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.p-item2{
+    margin-top: 0;
+}
+.p-text {
+    padding: 7px;
+}
+.p-text h2 {
+    font-size: 16px;
+}
+/*profile end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -226,13 +304,42 @@
     margin-bottom: 100px;
 }
     /*about end*/
-
+.c-icon i {
+    margin-top: -12px;
+    font-size: 50px;
+}
+/* choose us start */
+.c-h2 h2 {
+    font-size: 16px;
+}
+.choose {
+    padding-bottom: 60px;
+}
+.choose-item {
+    margin-top: 15px;
+}
+p {
+    margin-bottom: 0px;
+}
+/* choose us  end */ 
+/*profile start*/
+.p-item1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.p-item2{
+    margin-top: 0;
+}
+/*profile end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-
-	
+/* choose us start */
+.c-h2 {
+    margin-left: 13px;
+}
+/* choose us  end */  
 }
 
 /*X-Large devices (large desktop, 1200px and up)*/
@@ -244,8 +351,9 @@
 .a-text p {
     margin-bottom: 25px;
 }
-    /*about end*/
+    /*about end*/   
 }
+
 
 /*XX-Large devices (larger desktop, 1400px and up) */
 @media (min-width: 1400px) {
