@@ -75,8 +75,9 @@
     text-align: center;
     margin-bottom: 25px;
 }
-.a-btn {
-    display: inherit;
+.aaaaa {
+    text-align: center;
+
 }
 .about {
     margin-bottom: 50px;
@@ -112,9 +113,6 @@ p {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.p-item1:hover{
-    transform: scale(1.1);
-}
 .p-item2 {
     margin-top: 0;
 }
@@ -127,7 +125,83 @@ p {
 .p-text h2 {
     font-size: 16px;
 }
+.box8 .icon {
+    top: 43%;
+}
+.box8 .icon li a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
 /*profile end*/ 
+/*Pricing start*/
+.Pricing {
+    margin-bottom: 50px;
+}
+.p-box {
+    margin-top: 50px;
+    padding-bottom: 35px;
+}
+.p-box h3 {
+    margin: 10px 0;
+}
+.p-list ul li {
+    margin: 10px 0;
+}
+
+/*Pricing end*/
+/*buy*/
+.buy-text {
+    text-align: center;
+    margin: 5px 0;
+}
+.buy-text ul li a {
+    font-size: 16px;
+}
+.buy-btn1 {
+    margin: 5px 0;
+    margin-right: 95px;
+}
+.buy-btn {
+    padding: 6px 4px;
+    font-size: 16px;
+}
+/*buy*/
+/* testimonial start  */
+.testimonial-wrap-border {
+    padding: 29px 19px;
+}
+.test-img img {
+    margin-top: 0px;
+}
+.test-content {
+    padding-left: 0px;
+}
+.test-content h3 {
+    margin-top: 10px;
+}
+.test-content span {
+    margin: 5px 0 !important;
+}
+.test-content h5 {
+    margin-bottom: 0;
+}
+.test-content p {
+    margin-top: 5px;
+}
+.t-ss-btn {
+    margin: 15px 0;
+    font-size: 16px;
+    transform: none;
+}
+.t-ss-btn-d {
+    width: 2px;
+    height: 21px;
+    background-color: #333333;
+    position: relative;
+    transform: rotate(180deg);
+}
+/* testimonial end  */
 
 }
 /*Small devices (landscape phones, 576px and up)*/
@@ -207,8 +281,8 @@ p {
     text-align: center;
     margin-bottom: 25px;
 }
-.a-btn {
-    display: inherit;
+.aaaaa {
+    text-align: center;
 }
 .about {
     margin-bottom: 80px;
@@ -245,7 +319,74 @@ p {
 .p-text h2 {
     font-size: 16px;
 }
+.box8 .icon {
+    top: 43%;
+}
+.box8 .icon li a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
 /*profile end*/
+/*Pricing start*/
+.Pricing {
+    margin-bottom: 50px;
+}
+.p-box {
+    margin-top: 50px;
+}
+.p-box h3 {
+    margin: 10px 0;
+}
+.p-list ul li {
+    margin: 10px 0;
+}
+/*Pricing end*/
+/*buy*/
+.buy-text {
+    margin: 35px 0;
+}
+.buy-text ul li a {
+    font-size: 16px;
+}
+.buy-btn1 {
+    margin: 30px 0;
+}
+.buy-btn {
+    padding: 6px 4px;
+    font-size: 16px;
+}
+/*buy*/
+/* testimonial start  */
+.test-img img {
+    margin-top: 95px;
+}
+.test-content {
+    padding-left: 0px;
+}
+.test-content span {
+    margin: 5px 0 !important;
+}
+.test-content h5 {
+    margin-bottom: 0;
+}
+.test-content p {
+    margin-top: 5px;
+}
+.t-ss-btn {
+    margin: 30px 0;
+    font-size: 16px;
+    transform: none;
+}
+.t-ss-btn-d {
+    width: 2px;
+    height: 21px;
+    background-color: #333333;
+    position: relative;
+    transform: rotate(180deg);
+}
+/* testimonial end  */
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -297,8 +438,8 @@ p {
     text-align: center;
     margin-bottom: 25px;
 }
-.a-btn {
-    display: inherit;
+.aaaaa {
+    text-align: center;
 }
 .about {
     margin-bottom: 100px;
@@ -330,16 +471,68 @@ p {
 .p-item2{
     margin-top: 0;
 }
+.box8 .icon {
+    top: 42%;
+}
+.box8 .icon li a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
 /*profile end*/
+/* testimonial start  */
+.test-img img {
+    margin-top: 60px;
+}
+.test-content {
+    padding-left: 0px;
+}
+.test-content span {
+    margin: 5px 0 !important;
+}
+.test-content h5 {
+    margin-bottom: 0;
+}
+.test-content p {
+    margin-top: 5px;
+}
+/* testimonial end  */
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+.a-text h1 {
+    margin-bottom: 0px;
+}
+.a-text p {
+    margin-bottom: 5px;
+}
+.c_h1 {
+    font-size: 29px;
+}
 /* choose us start */
 .c-h2 {
     margin-left: 13px;
 }
 /* choose us  end */  
+/*profile start*/
+.p-text h2 {
+    font-size: 18px;
+}
+.box8 .icon {
+    top: 40%;
+}
+.box8 .icon li a {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+}
+/*profile end*/
+/*Pricing start*/
+.p-btn {
+    padding: 5px 11px !important;
+}
+/*Pricing end*/
 }
 
 /*X-Large devices (large desktop, 1200px and up)*/
@@ -351,7 +544,15 @@ p {
 .a-text p {
     margin-bottom: 25px;
 }
-    /*about end*/   
+    /*about end*/
+    /*profile start*/
+.p-text {
+    padding: 9px;
+}
+.p-text h2 {
+    font-size: 17px;
+}
+/*profile end*/   
 }
 
 
